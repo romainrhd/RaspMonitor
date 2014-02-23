@@ -1,6 +1,6 @@
-# Raspcontrol
+# RaspMonitor
 
-Raspcontrol is a web control centre written in PHP for Raspberry Pi.
+RaspMonitor est une application web en PHP qui permet de monitorer un RaspBerry Pi.
 
 ![Home of Raspcontrol](raspcontrol-home.png)
 
@@ -9,7 +9,7 @@ Raspcontrol is a web control centre written in PHP for Raspberry Pi.
 
 ## Installation
 
-Pour utiliser cette application, tu n'as besoin que d'un serveur web installé sur ta Raspberry Pi.
+Pour utiliser cette application, tu n'as besoin que d'un serveur web installé sur ton Raspberry Pi.
 
 Il te suffit juste de cloner le dépôt dans ton répertoire web (www) avec la commande suivante: 
 	
