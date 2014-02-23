@@ -1,0 +1,171 @@
+/*
+ *  Commun style
+ */
+
+#content {
+  padding: 40px 20px;
+}
+.container, .navbar .container {
+  max-width: 700px;
+  background-color: rgba(193, 191, 177, 0.9);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+html, body {
+	background-image: url('../img/background.jpg');
+	background-attachment:fixed;
+	background-size: 100%;
+}
+
+/*
+ * Pages
+ */
+
+.form-login {
+  margin: 20px 0 60px 0;
+}
+.form-login input {
+  margin-bottom: 10px;
+}
+
+.details table {
+  width: 100%;
+}
+.details tr {
+  vertical-align: top;
+  /*border-bottom: 1px solid #dedede;*/
+}
+.details td {
+  padding: 20px 0;
+}
+.details td.check {
+  font-weight: bold;
+  min-width: 100px;
+}
+.details td.icon {
+  min-width: 25px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.details .storage td {
+  padding: 15px 0;
+}
+
+.details .progress {
+  margin-bottom: 8px;
+}
+.details .storage .progress {
+  margin-top: 10px;
+}
+
+.rapid-status div {
+  margin-top: 20px;
+}
+.rapid-status a {
+	color: black;
+}
+
+.infos div {
+  margin-bottom: 20px;
+}
+.infos a {
+	color: black;
+}
+
+.services td.check {
+  width: 125px;
+}
+.services td.icon {
+  width: 60px;
+}
+
+.disks td.check {
+  width: 125px;
+}
+.disks td.icon {
+  width: 60px;
+}
+
+/*
+ *  Footer
+ */
+
+html, body
+{
+	height: 100%;
+}
+#wrap
+{
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -90px;
+	padding: 0 0 90px;
+}
+#footer
+{
+	height: 90px;
+	background-color: rgba(193, 191, 177, 0.7);
+	text-align: center;
+}
+
+footer a {
+	color: black;
+}
+
+footer a:hover {
+	color: black;
+}
+
+footer p {
+  margin: 0;
+}
+
+/*
+ * Mediaqueries
+ */
+@media (max-width: 770px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container,
+  .progress {
+    max-width: 100% !important;
+  }
+  .navbar {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  header img {
+    display: none;
+  }
+  header {
+    padding: 0 10px 0 20px;
+    height: 120px;
+  }
+  footer {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/*
+ * Bootstrap override
+ */
+.popover {
+	width: 650px;
+	max-width: 650px;
+}
+.infos div .popover-content {
+	margin-bottom: 0px;
+}
+.popover-content table {
+	margin-bottom: 0px;
+}

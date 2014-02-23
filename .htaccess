@@ -1,0 +1,14 @@
+# To enable URL rewriting, please uncomment the 3 last lines 
+# 
+# Ensure you have done every other steps described on
+# https://github.com/Bioshox/Raspcontrol/wiki/Enable-URL-Rewriting#configure-your-web-server
+
+
+# Security rules
+Options -Indexes
+
+# URL rewriting (uncomment = remove the # on the 3 following lines)
+#RewriteEngine On
+#RewriteRule ^details$ index.php?page=details
+#RewriteRule ^services$ index.php?page=services
+#RewriteRule ^logout$ login.php?logout
