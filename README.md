@@ -9,25 +9,15 @@ Raspcontrol is a web control centre written in PHP for Raspberry Pi.
 
 ## Installation
 
-__The [Installation Guide](https://github.com/Bioshox/Raspcontrol/wiki/Installation-Guide) in now hosted on the wiki.__  
-For the moment, you need a web server (like Apache) installed on your Raspberry Pi.
+Pour utiliser cette application, tu n'as besoin que d'un serveur web installé sur ta Raspberry Pi.
 
+Il te suffit juste de cloner le dépôt dans ton répertoire web (www) avec la commande suivante: 
+	
+	git clone https://github.com/romz19/RaspMonitor.git raspmonitor
 
-If you are in a hurry, just clone the repository with:
-
-	git clone https://github.com/Bioshox/Raspcontrol.git raspcontrol
-
-And create the json authentifation file `/etc/raspcontrol/database.aptmnt` with 740 rights and owned by www-data:
+Enfin tu dois créer un fichier JSON pour l'authentification `/etc/raspcontrol/database.aptmnt` avec les droits d'accès 740 et un propriétaire appartenant au groupe www-data:
 
 	{
  	   "user":       "yourName",
  	   "password":   "yourPassword"
 	}
-
-## Optional configuration
-
-In order to have some beautiful URLs, you can enable URL Rewriting.  
-Please follow instructions described on the wiki page [Enable URL Rewriting](https://github.com/Bioshox/Raspcontrol/wiki/Enable-URL-Rewriting).
-
-__Note:__ It's not necessary to enable URL Rewriting to use Raspcontrol.
-
