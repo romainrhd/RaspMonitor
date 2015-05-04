@@ -148,9 +148,7 @@ if (isset($_GET['action']) && isset($_GET['username']) && isset($_GET['password'
 	</div>
     <footer>
     	<div id="footer">
-	            <p>Propulsé par <a href="https://github.com/Bioshox/Raspcontrol" target="_blank">Raspcontrol</a>.</p>
-	         	<p>Revisité en version Bootstrap3 par <a href="http://www.roms-skills.com/" target="_blank">Romain Richard</a>.</p>
-	         	<p><a href="http://raspberry.roms-skills.com/">Retour au panel</a>.</p>
+	         	<p>Revisité en version Bootstrap3 par <a href="http://www.romain-r.fr/" target="_blank">Romain Richard</a>.</p>
         </div>
     </footer>
 
